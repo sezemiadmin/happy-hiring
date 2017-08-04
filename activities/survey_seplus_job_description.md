@@ -36,26 +36,23 @@
   * なぜ問題なのか
     * 問題が起きてから対応になってしまう
     * 予兆を把握できていない
-* 付随する社内インフラの構築改善
-  * これはどういうこと?
-    * たとえばdmzの設置
-    * 社内システムの改善
-  * なぜ問題なのか?
-    * 利便性が悪い。。パスワードが一括管理できないなど
 
 ## 現在はどういうプロダクト/サービスを、どういう技術を使って開発しているのか? (Asis)
 * 具体的なプロダクトやサービスの内容
-  * eラーニングサービスサイト(独習ゼミ)※IPA 午前免除制度対応 
-  * 月額定額制の社員研修サービス(SEカレッジ)
-  * sales person向け営業支援ツール(hoppers)※開発中
+  * SE、ITエンジニア向け eラーニング [独習ゼミ](https://www.seplus.jp/dokushuzemi/doku_zemi/)
+    * 独習ゼミは翔泳社の書籍や動画で学び、確認テストをWebで受講するシンプルなeラーニングです
+  * SE、ITエンジニア向け定額制研修 [SEカレッジ](https://www.seplus.jp/dokushuzemi/secollege/)
+    * 月額1社25000円～で社員は受講し放題となる定額制研修です。SE、ITエンジニア向けに動画を含め年間600コースを公開。AI、クラウドなど最新テーマからビジネスマナーまで幅広く対応、体系的にスキルアップできます
+  * sales person向け営業支援ツール
+    * 開発中
 * 具体的な技術
-  * 開発言語:PHP ver.5.4~7
-  * Framework:Laravel 3~5.4
-  * database:MySQL 5.6
-  * ServerOS:CentOS 6
-  * Frontend:Bootstrap 3 / jQuery
-  * 開発管理:Git/GitHub/
-  * issue管理:Redmine
+  * 開発言語:PHP ver.5.4~7.0
+  * Framework:Laravel 3.x~5.4
+  * database:MySQL 5.6 / AWS RDS
+  * ServerOS:CentOS 6 / AWS S3
+  * Frontend:Bootstrap 3 / jQuery / Riot.js / Pjax
+  * 開発管理:Git/GitHub
+  * issue管理:Redmine/GitHub Projects
   * コミュニケーション:Slack
 
 ## あなたにどのように解決して欲しいのか?
