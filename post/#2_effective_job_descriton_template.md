@@ -76,5 +76,5 @@ https://github.com/sezemiadmin/happy-hiring/blob/master/template/job_description
 
 では、次回、この募集要項テンプレートをもとに、いよいよ自社の開発チームのインタビューに臨みます。
 
-来週もお楽しみに!!
+次回もお楽しみに!!
 Happy Hiring !!
